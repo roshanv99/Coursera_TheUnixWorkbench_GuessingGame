@@ -1,5 +1,5 @@
-ans=$(ls | wc -l)
-echo "Number of dir: $ans "
+ans=$(ls -a | wc -l)
+ 
 
 function ask {
 	read v
